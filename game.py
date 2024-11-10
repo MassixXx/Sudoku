@@ -104,7 +104,6 @@ Available commands:
 
                 if command == "load" and len(parts) == 2:
                     self.load_grid(parts[1])
-                    print("Grid loaded successfully.")
 
                 elif command in ["print", "display"] and len(parts) == 1:
                     self.print_grid()
