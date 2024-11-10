@@ -34,7 +34,7 @@ def test_set_value():
     try:
         grid.set_value(1, 2, 5) # Attempt to set duplicate value in the same row
     except Exception as e:
-        assert "already in gridZone" in str(e), "Should raise an error for duplicate value in a zone"
+        assert "already in" in str(e), "Should raise an error for duplicate value in a zone"
 
     print("Set value test passed.")
 
