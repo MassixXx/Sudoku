@@ -15,8 +15,9 @@ Python 3
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/sudoku-solver.git
-cd sudoku-solver
+[git clone https://github.com/your-username/sudoku-solver.git
+](https://github.com/MassixXx/Sudoku.git)
+cd Sudoku
 ```
 #### Running the Application
 To start the Sudoku game interface, run:
