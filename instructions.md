@@ -23,7 +23,10 @@ This program allows you to interactively manage and solve Sudoku puzzles through
    python game.py
    ```
 2. **Command Prompt**: You will see a prompt that reads `Enter command:`, where you can input any of the following commands.
-
+3. **Run the tests**: Execute the `test.py` file to execute the testing script.
+   ```bash
+   python test.py
+   ```
 ## Commands
 
 ### `load <grid_file_path>`
