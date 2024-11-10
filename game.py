@@ -48,7 +48,8 @@ class Game:
             
         if self.grid.is_completed():
             print(f"Grid solved successfully using a decision rule of level {decision_level + 1}")
-
+        else:
+            print("Couldn't solve the grid. You can see the latest versions of the notes by entring the command 'show_notes'. You can then set the value of a cell using the 'set' command.")
         self.add_current_grid_to_history()
         
     def reset(self, i):
